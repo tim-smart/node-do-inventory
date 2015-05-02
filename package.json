@@ -1,0 +1,22 @@
+{
+  "name": "do-inventory",
+  "version": "0.1.0",
+  "description": "Generate a digitalocean ansible inventory",
+  "bin": {
+    "do-inventory": "./bin/do-inventory.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digitalocean",
+    "ansible"
+  ],
+  "author": "Tim Smart <tim@fostle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nautical": "^0.1.2",
+    "optimist": "^0.6.1",
+    "provhost": "^0.1.0"
+  }
+}
